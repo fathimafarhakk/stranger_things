@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+.Header {
+  display: Flex;
+  margin: 10px;
+  gap: 20px;
+  font-size: large;
+}
+.Column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 600px;
+}
+button {
+  border-radius: 20px;
+  background-color: rgb(255, 233, 233);
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+.imae1 {
+  width: 100px;
+  height: 150px;
+}
+.mainimage {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  width: 300px;
+  height: 300px;
+}
+.image3 {
+  width: 100px;
+  height: 150px;
+  border-top-right-radius: 20px;
+}
+.image2 {
+  width: 205px;
+  height: 150px;
+  border-bottom-right-radius: 20px;
+}
+.imagecont{
+    display: flex;
+
+    
+}
+.mainimageC{
+
+    padding: 6px;
+}
+.section2{
+    padding: 4px;
+}
